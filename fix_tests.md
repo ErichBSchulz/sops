@@ -13,3 +13,5 @@ Analyze the failure and explain if it is due to:
     contradictory.
 
 **NO CODE CHANGES** until I agree with your proposal.
+
+When fixing bugs it is critical to consider the root cause and fix that. If a key is missing do not simply create a default in the local code. Ask, where is this key supposed to come from? Why is it missing? What is the best way to fix it?
